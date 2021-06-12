@@ -236,6 +236,7 @@
 .join{
   margin-top: 5%;
   background:rgb(65, 65, 65);
+  margin-bottom: 10%; 
 }
 
 .join .row{
@@ -584,18 +585,71 @@ header .fa-bars{
 /*Adoption Page*/
 /* Explanations for pages*/
 
-.welcome-message {
-  margin-top: 20%;
-  width: 600px;
-  height: 300px;
-  margin: 25% 30%;
-  text-align: center;
-  
+.adoption{
+  margin-top: 5%;
+  background:#333;
 }
-.welcome-message h2 {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+/*Work Page Works Part*/
+.adoption .box-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.adoption .box-container .box{
+  width:30rem;
+  margin:2rem 1rem;
+  overflow: hidden;
+  border-radius: .5rem;
+  box-shadow: 0 .3rem .5rem rgba(255, 255, 255);
+}
+
+.adoption .box-container .box img{
+  height:20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.adoption .box-container .box .content{
+  padding:0 1.5rem;
+}
+
+.adoption .box-container .box .content span{
+  color:#666;
+  font-size: 1.5rem;
+  display: block;
+  padding:1rem 0;
+}
+
+.adoption .box-container .box .content h3{
+  font-size: 2rem;
+  color:#257e79
+}
+
+.adoption .box-container .box .content:hover h3{
+  color:#8FBC8F
+}
+
+.adoption .box-container .box .content p{
+  font-size: 1.3rem;
+  color:rgb(255, 255, 255);
+}
+.adoption .box-container .box .content .button{
+  height:3.5rem;
+  width:17rem;
+  background:var(--green2);
+  color:#fff;
+  border:none;
+  border-radius: 5rem;
+  box-shadow: 0 .3rem 1rem rgba(0,0,0,.3);
+  cursor: pointer;
+  font-size: 2rem;
+  transition: .2s;
+}
+
+.adoption .box-container .box .content .button:hover{
+  letter-spacing: .2rem;
+  opacity: .8;
 }
 /*Footer Part for all pages*/
 .footer{
