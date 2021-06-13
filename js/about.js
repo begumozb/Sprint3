@@ -1,10 +1,10 @@
 
 $(document).ready(function(){
-    $.getJSON("adoption.json", function(data){
-        $.each(data, function() {
+    $.getJSON("adoption.json", function(info){
+        $.each(info, function() {
             $.each(this, function(key, value) {
                 $("#info").append( 
-                    "Info: " + value.info + "<br>" 
+                    "info: " + value.info + "<br>" 
                 );
             });
         }); 
