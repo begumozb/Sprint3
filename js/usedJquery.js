@@ -97,9 +97,3 @@ $('.message').on('click', function(event) {
     $( "#dialog" ).dialog();
   } );
 } );
-
-/*Adoption Form Page*/
-$(function(){
-  $("#birthday").datepicker();
-});
-
