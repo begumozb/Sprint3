@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $.getJSON("adoption.json", function(info){
+    $.getJSON("about.json", function(info){
         $.each(info, function() {
             $.each(this, function(key, value) {
                 $("#info").append( 
