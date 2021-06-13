@@ -1,4 +1,4 @@
-
+/*local*/
 $(document).ready(function(){
     $.getJSON("about.json", function(info){
         $.each(info, function() {
@@ -10,3 +10,15 @@ $(document).ready(function(){
         }); 
     });
 });
+/*API*/
+var url =
+"https://dog.ceo/api/breeds/image/random";
+$.getJSON(url, function(data){
+    var html = "";
+    $.each(data, function(){
+    html = "<img src=" + data.message+ ">";
+    $("#a").html(html);
+    });
+    
+    console.log(data.message)
+   });
