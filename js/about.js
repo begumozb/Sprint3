@@ -4,7 +4,7 @@ $(document).ready(function(){
         $.each(info, function() {
             $.each(this, function(key, value) {
                 $("#info").append( 
-                    "info: " + value.info + "<br>" 
+                    "Info: " + value.info + "<br>" 
                 );
             });
         }); 
