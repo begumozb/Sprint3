@@ -103,3 +103,17 @@ $(function(){
   $("#birthday").datepicker();
 });
 
+/*var btn = document.getElementById("btn");
+
+btn.addEventListener("Click", function(){
+  var ourRequest = new XMLHttpRequest();
+  ourRequest.open('GET', 'adoption.json');
+  ourRewqest.onload = function(){
+    var ourData = JSON.parse(ourRequest.responseText);
+    console.log(ourData[0]);
+  
+  }
+  ourRewqest.send();
+});*/
+
+let animals = [];
