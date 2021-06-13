@@ -99,7 +99,7 @@ $('.message').on('click', function(event) {
 } );
 
 /*Adoption Form Page*/
-$(function(){
+/*$(function(){
   $("#birthday").datepicker();
-});
+});*/
 
