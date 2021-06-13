@@ -8,7 +8,6 @@
         gallery:{
             enabled:true
         }
-
     });
 
 });
