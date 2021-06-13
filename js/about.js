@@ -1,4 +1,6 @@
-/*local*/
+/*Demonstrated mastery of 2 AJAX requests*/ 
+
+/*data file*/
 $(document).ready(function(){
     $.getJSON("about.json", function(info){
         $.each(info, function() {
@@ -10,6 +12,7 @@ $(document).ready(function(){
         }); 
     });
 });
+
 /*API*/
 var url =
 "https://dog.ceo/api/breeds/image/random";
