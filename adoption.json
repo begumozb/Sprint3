@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bob", 
+        "species": "Terrier",
+        "gender": "Female",
+        "age": "3"
+    },
+    {
+        "name": "Bob", 
+        "species": "Dakhund",
+        "gender": "Male",
+        "age": "7"
+    },
+    {
+        "name": "Candy", 
+        "species": "Stripped",
+        "gender": "Female",
+        "age": "1"
+    },
+    {
+        "name": "Jack", 
+        "species": "Labrador",
+        "gender": "Female",
+        "age": "6"
+    }
+]
