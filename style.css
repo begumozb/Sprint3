@@ -635,15 +635,16 @@ header .fa-bars{
   color:rgb(255, 255, 255);
 }
 .adoption .box-container .box .content .button{
-  height:3.5rem;
-  width:17rem;
+  margin-top: 10%;
+  height:2.5rem;
+  width:8rem;
   background:var(--green2);
   color:#fff;
   border:none;
   border-radius: 5rem;
   box-shadow: 0 .3rem 1rem rgba(0,0,0,.3);
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1rem;
   transition: .2s;
 }
 
